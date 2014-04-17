@@ -23,8 +23,8 @@ branch: "master"
 root_url: "http://wet-boew.github.io/wet-boew-jekyll/"
 org_name: "wet-boew"
 prose_url: "http://prose.io"
+encoding: utf-8
 
 # default build settings for running locally, no need to edit
 pymgemnts: true
-exclude: ['README.md']
-
+exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "Rakefile", "README.md", ".*"]
