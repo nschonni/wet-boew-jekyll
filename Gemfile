@@ -1,6 +1,4 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "github-pages"
-gem "html-proofer"
-gem "rake"
-gem 'jekyll-gh-pages'
+source "https://rubygems.org"
+gemspec

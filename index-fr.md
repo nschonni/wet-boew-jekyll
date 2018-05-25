@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "theme-wet-boew/default"
+layout: "default"
 permalink: "index-fr.html"
 title: Variant pour Jekyll
 language: fr
@@ -11,12 +11,7 @@ description: "Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)
 
 ## Pages Web normales
 
-* [Thème du Canada.ca](gcweb/index-fr.html)
-* [Thème de la facilité d'emploi Web GC](theme-gcwu-fegc/index-fr.html)
-* [Thème du gouvernement du Canada pour les sites intranet](theme-gc-intranet/index-fr.html)
-* [Thème de la BOEW](theme-wet-boew/index-fr.html)
-* [Thème de base](theme-base/index-fr.html)
-* [Thème de la PGO](theme-ogpl/index-fr.html)
+* [Thème de la BOEW](index-fr.html)
 
 ## Articles de blogue
 

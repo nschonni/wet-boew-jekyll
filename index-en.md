@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "theme-wet-boew/default"
+layout: "default"
 permalink: "index-en.html"
 title: Jekyll variant
 language: en
@@ -11,12 +11,7 @@ description: "Jekyll variant - Web Experience Toolkit (WET)"
 
 ## Normal Web pages
 
-* [Canada.ca theme](gcweb/index-en.html)
-* [GC Web Usability theme](theme-gcwu-fegc/index-en.html)
-* [GC Intranet theme](theme-gc-intranet/index-en.html)
-* [WET theme](theme-wet-boew/index-en.html)
-* [Base theme](theme-base/index-en.html)
-* [OGPL theme](theme-ogpl/index-en.html)
+* [WET theme](index-en.html)
 
 ## Blog posts
 

@@ -1,0 +1,23 @@
+<div class="container">
+	<div class="row">
+		<ol class="breadcrumb">
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-home }}</a>
+			</li>
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew/demos/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-work-examples }}</a>
+			</li>
+{% unless page.url == "index-en.html" or page.url == "index-fr.html" %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/index-{{ page.language }}.html">{{ site.data.i18n-jekyll[page.language].tmpl-jekyll-variant }}</a>
+			</li>
+	{% unless page.url contains 'theme-wet-boew/index-' %}
+			<li>
+				<a href="http://wet-boew.github.io/wet-boew-jekyll/theme-wet-boew/index-{{ page.language }}.html">{{ site.data.i18n-base[page.language].tmpl-wet-theme }}</a>
+			</li>
+	{% endunless %}
+{% endunless %}
+			<li>{{ page.title }}</li>
+		</ol>
+	</div>
+</div>
