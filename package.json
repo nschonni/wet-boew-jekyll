@@ -1,0 +1,25 @@
+{
+  "name": "wet-boew-jekyll",
+  "private": true,
+  "version": "4.0.28",
+  "description": "[![Build Status](https://travis-ci.org/wet-boew/wet-boew-jekyll.svg?branch=master)](https://travis-ci.org/wet-boew/wet-boew-jekyll)",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bundle",
+    "start": "bundle exec jekyll serve",
+    "update-wet-boew": "rsync -avr --delete node_modules/wet-boew/dist/ assets/wet-boew/ --exclude=/*.html --exclude=/*.zip --exclude=/demos --exclude=/docs --exclude=/theme --exclude=/unmin --exclude=/wet-boew/js/polyfills/test.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wet-boew/wet-boew-jekyll.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wet-boew/wet-boew-jekyll/issues"
+  },
+  "homepage": "https://github.com/wet-boew/wet-boew-jekyll#readme",
+  "dependencies": {
+    "wet-boew": "github:wet-boew/wet-boew"
+  }
+}
